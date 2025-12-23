@@ -56,7 +56,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href="#contact" 
-                  className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-600 transition-colors font-semibold text-lg"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
                 >
                   Schedule a Demo
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -329,7 +329,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-20 bg-gradient-to-br from-blue-600 to-blue-600 text-white">
+      <section id="contact" className="py-20 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             Ready to Eliminate Manual Data Entry?

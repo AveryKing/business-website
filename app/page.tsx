@@ -56,7 +56,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href="#contact" 
-                  className="inline-flex items-center justify-center px-8 py-4 bg-accent-blue text-white rounded-lg hover:bg-blue-600 transition-colors font-semibold text-lg"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-600 transition-colors font-semibold text-lg"
                 >
                   Schedule a Demo
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
             <div className="hidden lg:block">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-accent-blue to-blue-600 rounded-2xl blur-3xl opacity-20"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-600 rounded-2xl blur-3xl opacity-20"></div>
                 <div className="relative bg-slate-800 p-8 rounded-2xl border border-slate-700 shadow-2xl">
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3 p-4 bg-slate-900 rounded-lg">
@@ -102,7 +102,7 @@ export default function Home() {
                         <div className="h-3 bg-slate-700 rounded w-2/3 mb-2"></div>
                         <div className="h-2 bg-slate-700 rounded w-1/3"></div>
                       </div>
-                      <div className="animate-spin h-5 w-5 border-2 border-accent-blue border-t-transparent rounded-full"></div>
+                      <div className="animate-spin h-5 w-5 border-2 border-blue-600 border-t-transparent rounded-full"></div>
                     </div>
                     <div className="flex items-center space-x-3 p-4 bg-slate-900 rounded-lg opacity-50">
                       <Server className="w-6 h-6 text-gray-500" />
@@ -193,8 +193,8 @@ export default function Home() {
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Service 1: PDF-to-SQL */}
-            <div className="bg-gradient-to-br from-slate-900 to-navy-800 rounded-2xl p-8 lg:p-10 text-white shadow-xl">
-              <div className="w-16 h-16 bg-accent-blue rounded-xl flex items-center justify-center mb-6">
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-8 lg:p-10 text-white shadow-xl">
+              <div className="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center mb-6">
                 <FileText className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl lg:text-3xl font-bold mb-4">Intelligent PDF-to-SQL Pipeline</h3>
@@ -230,8 +230,8 @@ export default function Home() {
             </div>
 
             {/* Service 2: On-Premise Sync */}
-            <div className="bg-gradient-to-br from-slate-900 to-navy-800 rounded-2xl p-8 lg:p-10 text-white shadow-xl">
-              <div className="w-16 h-16 bg-accent-blue rounded-xl flex items-center justify-center mb-6">
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-8 lg:p-10 text-white shadow-xl">
+              <div className="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center mb-6">
                 <Server className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl lg:text-3xl font-bold mb-4">Secure On-Premise ERP Sync</h3>
@@ -280,7 +280,7 @@ export default function Home() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-accent-blue rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Shield className="w-5 h-5 text-white" />
                   </div>
                   <div>
@@ -289,7 +289,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-accent-blue rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Lock className="w-5 h-5 text-white" />
                   </div>
                   <div>
@@ -298,7 +298,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-accent-blue rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Database className="w-5 h-5 text-white" />
                   </div>
                   <div>
@@ -329,7 +329,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-20 bg-gradient-to-br from-accent-blue to-blue-600 text-white">
+      <section id="contact" className="py-20 bg-gradient-to-br from-blue-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             Ready to Eliminate Manual Data Entry?

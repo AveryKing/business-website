@@ -19,17 +19,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <span className="text-2xl font-bold text-navy-900">Diviora</span>
+              <span className="text-2xl font-bold text-slate-900">Diviora</span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#services" className="text-navy-700 hover:text-navy-900 transition-colors">Services</a>
-              <a href="#solutions" className="text-navy-700 hover:text-navy-900 transition-colors">Solutions</a>
-              <a href="#contact" className="text-navy-700 hover:text-navy-900 transition-colors">Contact</a>
+              <a href="#services" className="text-slate-700 hover:text-slate-900 transition-colors">Services</a>
+              <a href="#solutions" className="text-slate-700 hover:text-slate-900 transition-colors">Solutions</a>
+              <a href="#contact" className="text-slate-700 hover:text-slate-900 transition-colors">Contact</a>
             </div>
             <div>
               <a 
                 href="#contact" 
-                className="inline-flex items-center px-6 py-2.5 bg-navy-900 text-white rounded-lg hover:bg-navy-800 transition-colors font-medium"
+                className="inline-flex items-center px-6 py-2.5 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors font-medium"
               >
                 Get Started
               </a>
@@ -39,12 +39,12 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900 text-white py-20 lg:py-32">
+      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-flex items-center px-4 py-2 bg-navy-800 rounded-full mb-6">
-                <Zap className="w-4 h-4 mr-2 text-accent-blue" />
+              <div className="inline-flex items-center px-4 py-2 bg-slate-800 rounded-full mb-6">
+                <Zap className="w-4 h-4 mr-2 text-blue-500" />
                 <span className="text-sm font-medium">Enterprise Data Automation</span>
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
@@ -70,15 +70,15 @@ export default function Home() {
               </div>
               <div className="mt-12 grid grid-cols-3 gap-8">
                 <div>
-                  <div className="text-3xl font-bold text-accent-blue">95%</div>
+                  <div className="text-3xl font-bold text-blue-500">95%</div>
                   <div className="text-sm text-gray-400 mt-1">Time Saved</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-accent-blue">99.8%</div>
+                  <div className="text-3xl font-bold text-blue-500">99.8%</div>
                   <div className="text-sm text-gray-400 mt-1">Accuracy</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-accent-blue">48hrs</div>
+                  <div className="text-3xl font-bold text-blue-500">48hrs</div>
                   <div className="text-sm text-gray-400 mt-1">Setup Time</div>
                 </div>
               </div>
@@ -86,29 +86,29 @@ export default function Home() {
             <div className="hidden lg:block">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-accent-blue to-blue-600 rounded-2xl blur-3xl opacity-20"></div>
-                <div className="relative bg-navy-800 p-8 rounded-2xl border border-navy-700 shadow-2xl">
+                <div className="relative bg-slate-800 p-8 rounded-2xl border border-slate-700 shadow-2xl">
                   <div className="space-y-4">
-                    <div className="flex items-center space-x-3 p-4 bg-navy-900 rounded-lg">
-                      <FileText className="w-6 h-6 text-accent-blue" />
+                    <div className="flex items-center space-x-3 p-4 bg-slate-900 rounded-lg">
+                      <FileText className="w-6 h-6 text-blue-500" />
                       <div className="flex-1">
-                        <div className="h-3 bg-navy-700 rounded w-3/4 mb-2"></div>
-                        <div className="h-2 bg-navy-700 rounded w-1/2"></div>
+                        <div className="h-3 bg-slate-700 rounded w-3/4 mb-2"></div>
+                        <div className="h-2 bg-slate-700 rounded w-1/2"></div>
                       </div>
                       <CheckCircle2 className="w-5 h-5 text-green-500" />
                     </div>
-                    <div className="flex items-center space-x-3 p-4 bg-navy-900 rounded-lg">
-                      <Database className="w-6 h-6 text-accent-blue" />
+                    <div className="flex items-center space-x-3 p-4 bg-slate-900 rounded-lg">
+                      <Database className="w-6 h-6 text-blue-500" />
                       <div className="flex-1">
-                        <div className="h-3 bg-navy-700 rounded w-2/3 mb-2"></div>
-                        <div className="h-2 bg-navy-700 rounded w-1/3"></div>
+                        <div className="h-3 bg-slate-700 rounded w-2/3 mb-2"></div>
+                        <div className="h-2 bg-slate-700 rounded w-1/3"></div>
                       </div>
                       <div className="animate-spin h-5 w-5 border-2 border-accent-blue border-t-transparent rounded-full"></div>
                     </div>
-                    <div className="flex items-center space-x-3 p-4 bg-navy-900 rounded-lg opacity-50">
+                    <div className="flex items-center space-x-3 p-4 bg-slate-900 rounded-lg opacity-50">
                       <Server className="w-6 h-6 text-gray-500" />
                       <div className="flex-1">
-                        <div className="h-3 bg-navy-700 rounded w-3/5 mb-2"></div>
-                        <div className="h-2 bg-navy-700 rounded w-2/5"></div>
+                        <div className="h-3 bg-slate-700 rounded w-3/5 mb-2"></div>
+                        <div className="h-2 bg-slate-700 rounded w-2/5"></div>
                       </div>
                     </div>
                   </div>
@@ -123,10 +123,10 @@ export default function Home() {
       <section id="solutions" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-navy-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Stop Losing Time on Data Bottlenecks
             </h2>
-            <p className="text-xl text-navy-600 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Every day your team battles the same frustrating problems. We eliminate them.
             </p>
           </div>
@@ -137,8 +137,8 @@ export default function Home() {
               <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
                 <Clock className="w-6 h-6 text-red-600" />
               </div>
-              <h3 className="text-xl font-semibold text-navy-900 mb-3">Manual Data Entry Hell</h3>
-              <p className="text-navy-600 leading-relaxed">
+              <h3 className="text-xl font-semibold text-slate-900 mb-3">Manual Data Entry Hell</h3>
+              <p className="text-slate-600 leading-relaxed">
                 Your team spends 15+ hours per week typing shipment details, invoices, and purchase orders from PDFs into your ERP system.
               </p>
             </div>
@@ -148,8 +148,8 @@ export default function Home() {
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                 <Lock className="w-6 h-6 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold text-navy-900 mb-3">Trapped ERP Data</h3>
-              <p className="text-navy-600 leading-relaxed">
+              <h3 className="text-xl font-semibold text-slate-900 mb-3">Trapped ERP Data</h3>
+              <p className="text-slate-600 leading-relaxed">
                 Critical operational data sits locked in legacy on-premise systems—impossible to integrate with modern tools without IT intervention.
               </p>
             </div>
@@ -159,8 +159,8 @@ export default function Home() {
               <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
                 <FileSearch className="w-6 h-6 text-yellow-600" />
               </div>
-              <h3 className="text-xl font-semibold text-navy-900 mb-3">Lost in Paper Trails</h3>
-              <p className="text-navy-600 leading-relaxed">
+              <h3 className="text-xl font-semibold text-slate-900 mb-3">Lost in Paper Trails</h3>
+              <p className="text-slate-600 leading-relaxed">
                 Job site photos, delivery receipts, and inspection reports pile up in email and file shares—unsearchable and disconnected.
               </p>
             </div>
@@ -170,8 +170,8 @@ export default function Home() {
               <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
                 <Database className="w-6 h-6 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-navy-900 mb-3">Inconsistent Formats</h3>
-              <p className="text-navy-600 leading-relaxed">
+              <h3 className="text-xl font-semibold text-slate-900 mb-3">Inconsistent Formats</h3>
+              <p className="text-slate-600 leading-relaxed">
                 Every vendor sends data differently—scanned PDFs, Excel sheets, photos of BOLs. Your team wastes time standardizing everything.
               </p>
             </div>
@@ -183,17 +183,17 @@ export default function Home() {
       <section id="services" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-navy-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Our Solutions
             </h2>
-            <p className="text-xl text-navy-600 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Purpose-built data automation for logistics and construction operations
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Service 1: PDF-to-SQL */}
-            <div className="bg-gradient-to-br from-navy-900 to-navy-800 rounded-2xl p-8 lg:p-10 text-white shadow-xl">
+            <div className="bg-gradient-to-br from-slate-900 to-navy-800 rounded-2xl p-8 lg:p-10 text-white shadow-xl">
               <div className="w-16 h-16 bg-accent-blue rounded-xl flex items-center justify-center mb-6">
                 <FileText className="w-8 h-8 text-white" />
               </div>
@@ -204,24 +204,24 @@ export default function Home() {
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle2 className="w-5 h-5 text-accent-blue mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-200">Handles scanned documents, photos, and native PDFs</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle2 className="w-5 h-5 text-accent-blue mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-200">Custom field mapping for your specific forms and invoices</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle2 className="w-5 h-5 text-accent-blue mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-200">Validates data against your business rules automatically</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle2 className="w-5 h-5 text-accent-blue mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-200">Batch processing for thousands of documents</span>
                 </div>
               </div>
 
-              <div className="bg-navy-900 rounded-lg p-6 border border-navy-700">
+              <div className="bg-slate-900 rounded-lg p-6 border border-slate-700">
                 <div className="text-sm font-semibold text-gray-400 mb-2">TYPICAL USE CASE</div>
                 <p className="text-white">
                   A logistics company processes 500+ delivery receipts daily. Diviora reduced manual entry from 20 hours/week to 15 minutes of review time.
@@ -230,7 +230,7 @@ export default function Home() {
             </div>
 
             {/* Service 2: On-Premise Sync */}
-            <div className="bg-gradient-to-br from-navy-900 to-navy-800 rounded-2xl p-8 lg:p-10 text-white shadow-xl">
+            <div className="bg-gradient-to-br from-slate-900 to-navy-800 rounded-2xl p-8 lg:p-10 text-white shadow-xl">
               <div className="w-16 h-16 bg-accent-blue rounded-xl flex items-center justify-center mb-6">
                 <Server className="w-8 h-8 text-white" />
               </div>
@@ -241,24 +241,24 @@ export default function Home() {
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle2 className="w-5 h-5 text-accent-blue mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-200">Runs behind your firewall for complete data sovereignty</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle2 className="w-5 h-5 text-accent-blue mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-200">Real-time or scheduled sync to data warehouse or BI tools</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle2 className="w-5 h-5 text-accent-blue mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-200">No changes to your existing ERP setup required</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle2 className="w-5 h-5 text-accent-blue mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-200">SOC 2 Type II compliant with audit logging</span>
                 </div>
               </div>
 
-              <div className="bg-navy-900 rounded-lg p-6 border border-navy-700">
+              <div className="bg-slate-900 rounded-lg p-6 border border-slate-700">
                 <div className="text-sm font-semibold text-gray-400 mb-2">TYPICAL USE CASE</div>
                 <p className="text-white">
                   A construction firm unified data from 3 legacy systems into a single dashboard—enabling real-time project cost tracking without an expensive ERP migration.
@@ -270,7 +270,7 @@ export default function Home() {
       </section>
 
       {/* Trust & Security Section */}
-      <section className="py-20 bg-navy-900 text-white">
+      <section className="py-20 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -308,18 +308,18 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="bg-navy-800 rounded-2xl p-8 border border-navy-700">
+            <div className="bg-slate-800 rounded-2xl p-8 border border-slate-700">
               <div className="space-y-6">
                 <div>
-                  <div className="text-5xl font-bold text-accent-blue mb-2">100%</div>
+                  <div className="text-5xl font-bold text-blue-500 mb-2">100%</div>
                   <div className="text-gray-300">Uptime SLA</div>
                 </div>
                 <div>
-                  <div className="text-5xl font-bold text-accent-blue mb-2">&lt;24h</div>
+                  <div className="text-5xl font-bold text-blue-500 mb-2">&lt;24h</div>
                   <div className="text-gray-300">Average Implementation Time</div>
                 </div>
                 <div>
-                  <div className="text-5xl font-bold text-accent-blue mb-2">50+</div>
+                  <div className="text-5xl font-bold text-blue-500 mb-2">50+</div>
                   <div className="text-gray-300">Enterprise Clients</div>
                 </div>
               </div>
@@ -340,7 +340,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="mailto:contact@diviora.com" 
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-accent-blue rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-500 rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg"
             >
               Schedule Demo
               <ArrowRight className="ml-2 w-5 h-5" />
@@ -359,7 +359,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-navy-900 text-gray-400 py-12">
+      <footer className="bg-slate-900 text-gray-400 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
@@ -393,7 +393,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="border-t border-navy-800 pt-8 text-sm text-center">
+          <div className="border-t border-slate-800 pt-8 text-sm text-center">
             <p>&copy; {new Date().getFullYear()} Diviora. All rights reserved.</p>
           </div>
         </div>

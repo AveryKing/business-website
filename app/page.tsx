@@ -13,23 +13,23 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-slate-950 text-slate-100">
       {/* Navigation */}
-      <nav className="border-b border-gray-200">
+      <nav className="border-b border-slate-800 bg-slate-950/80 backdrop-blur">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <span className="text-2xl font-bold text-slate-900">Diviora</span>
+              <span className="text-2xl font-bold text-white">Diviora</span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#services" className="text-slate-700 hover:text-slate-900 transition-colors">Services</a>
-              <a href="#solutions" className="text-slate-700 hover:text-slate-900 transition-colors">Solutions</a>
-              <a href="#contact" className="text-slate-700 hover:text-slate-900 transition-colors">Contact</a>
+              <a href="#services" className="text-slate-300 hover:text-white transition-colors">Services</a>
+              <a href="#solutions" className="text-slate-300 hover:text-white transition-colors">Solutions</a>
+              <a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a>
             </div>
             <div>
               <a 
                 href="#contact" 
-                className="inline-flex items-center px-6 py-2.5 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors font-medium"
+                className="inline-flex items-center px-6 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition-colors font-medium"
               >
                 Get Started
               </a>
@@ -120,58 +120,58 @@ export default function Home() {
       </section>
 
       {/* Pain Points Section */}
-      <section id="solutions" className="py-20 bg-gray-50">
+      <section id="solutions" className="py-20 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
               Stop Losing Time on Data Bottlenecks
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               Every day your team battles the same frustrating problems. We eliminate them.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Pain Point 1 */}
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-200 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
-                <Clock className="w-6 h-6 text-red-600" />
+            <div className="bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-700 hover:shadow-lg transition-shadow">
+              <div className="w-12 h-12 bg-red-500/15 rounded-lg flex items-center justify-center mb-4">
+                <Clock className="w-6 h-6 text-red-400" />
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Manual Data Entry Hell</h3>
-              <p className="text-slate-600 leading-relaxed">
+              <h3 className="text-xl font-semibold text-white mb-3">Manual Data Entry Hell</h3>
+              <p className="text-slate-300 leading-relaxed">
                 Your team spends 15+ hours per week typing shipment details, invoices, and purchase orders from PDFs into your ERP system.
               </p>
             </div>
 
             {/* Pain Point 2 */}
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-200 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                <Lock className="w-6 h-6 text-orange-600" />
+            <div className="bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-700 hover:shadow-lg transition-shadow">
+              <div className="w-12 h-12 bg-orange-500/15 rounded-lg flex items-center justify-center mb-4">
+                <Lock className="w-6 h-6 text-orange-400" />
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Trapped ERP Data</h3>
-              <p className="text-slate-600 leading-relaxed">
+              <h3 className="text-xl font-semibold text-white mb-3">Trapped ERP Data</h3>
+              <p className="text-slate-300 leading-relaxed">
                 Critical operational data sits locked in legacy on-premise systems—impossible to integrate with modern tools without IT intervention.
               </p>
             </div>
 
             {/* Pain Point 3 */}
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-200 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
-                <FileSearch className="w-6 h-6 text-yellow-600" />
+            <div className="bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-700 hover:shadow-lg transition-shadow">
+              <div className="w-12 h-12 bg-yellow-500/15 rounded-lg flex items-center justify-center mb-4">
+                <FileSearch className="w-6 h-6 text-yellow-400" />
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Lost in Paper Trails</h3>
-              <p className="text-slate-600 leading-relaxed">
+              <h3 className="text-xl font-semibold text-white mb-3">Lost in Paper Trails</h3>
+              <p className="text-slate-300 leading-relaxed">
                 Job site photos, delivery receipts, and inspection reports pile up in email and file shares—unsearchable and disconnected.
               </p>
             </div>
 
             {/* Pain Point 4 */}
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-200 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                <Database className="w-6 h-6 text-purple-600" />
+            <div className="bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-700 hover:shadow-lg transition-shadow">
+              <div className="w-12 h-12 bg-purple-500/15 rounded-lg flex items-center justify-center mb-4">
+                <Database className="w-6 h-6 text-purple-400" />
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Inconsistent Formats</h3>
-              <p className="text-slate-600 leading-relaxed">
+              <h3 className="text-xl font-semibold text-white mb-3">Inconsistent Formats</h3>
+              <p className="text-slate-300 leading-relaxed">
                 Every vendor sends data differently—scanned PDFs, Excel sheets, photos of BOLs. Your team wastes time standardizing everything.
               </p>
             </div>
@@ -180,13 +180,13 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
+      <section id="services" className="py-20 bg-slate-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
               Our Solutions
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               Purpose-built data automation for logistics and construction operations
             </p>
           </div>

@@ -134,7 +134,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Pain Point 1 */}
             <div className="bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-700 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-red-500/10 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-red-500/15 rounded-lg flex items-center justify-center mb-4">
                 <Clock className="w-6 h-6 text-red-400" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-3">Manual Data Entry Hell</h3>
@@ -145,7 +145,7 @@ export default function Home() {
 
             {/* Pain Point 2 */}
             <div className="bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-700 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-orange-500/15 rounded-lg flex items-center justify-center mb-4">
                 <Lock className="w-6 h-6 text-orange-400" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-3">Trapped ERP Data</h3>
@@ -156,8 +156,8 @@ export default function Home() {
 
             {/* Pain Point 3 */}
             <div className="bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-700 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-yellow-500/10 rounded-lg flex items-center justify-center mb-4">
-                <FileSearch className="w-6 h-6 text-yellow-300" />
+              <div className="w-12 h-12 bg-yellow-500/15 rounded-lg flex items-center justify-center mb-4">
+                <FileSearch className="w-6 h-6 text-yellow-400" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-3">Lost in Paper Trails</h3>
               <p className="text-slate-300 leading-relaxed">
@@ -167,7 +167,7 @@ export default function Home() {
 
             {/* Pain Point 4 */}
             <div className="bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-700 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-purple-500/15 rounded-lg flex items-center justify-center mb-4">
                 <Database className="w-6 h-6 text-purple-400" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-3">Inconsistent Formats</h3>

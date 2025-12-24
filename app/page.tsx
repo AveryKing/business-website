@@ -315,7 +315,7 @@ export default function Home() {
                   <div className="text-gray-300">Uptime SLA</div>
                 </div>
                 <div>
-                  <div className="text-5xl font-bold text-blue-500 mb-2">&lt;24h</div>
+                  <div className="text-5xl font-bold text-blue-500 mb-2">{'<'}24h</div>
                   <div className="text-gray-300">Average Implementation Time</div>
                 </div>
                 <div>

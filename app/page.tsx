@@ -54,7 +54,7 @@ const streamRow: Variants = {
   exit: { opacity: 0, y: -10, transition: { duration: 0.18, ease: "easeIn" } }
 };
 
-const calculateAnnualSavings = (volume: number) => Math.round(volume * SAVINGS_PER_LOAD * ROI_MULTIPLIER * 365);
+const calculateAnnualSavings = (dailyLoads: number) => Math.round(dailyLoads * SAVINGS_PER_LOAD * ROI_MULTIPLIER * 365);
 
 type TiltCardProps = {
   children: ReactNode;
@@ -134,7 +134,7 @@ export default function Home() {
     () =>
       Array.from({ length: VISIBLE_STREAM_ROWS }, (_, i) => {
         const index = (streamIndex + i) % streamEvents.length;
-        return { id: `${index}-${streamEvents[index]}`, value: streamEvents[index] };
+        return { id: index, value: streamEvents[index] };
       }),
     [streamIndex]
   );
@@ -430,7 +430,7 @@ export default function Home() {
                 </motion.span>
                 / year.
               </h3>
-              <p className="text-sm text-slate-300 mt-2">Slider mirrors on-prem benchmarks and the 7.5x ROI guarantee. Drag to feel the savings climb.</p>
+              <p className="text-sm text-slate-300 mt-2">Slider mirrors on-prem benchmarks and the 7.5x ROI guarantee. Drag to feel the savings climb. Default baseline assumes 48 daily loads for a mid-size brokerage.</p>
               <div className="mt-6 space-y-4">
                 <div className="space-y-2">
                   <div className="flex items-center justify-between text-xs uppercase tracking-[0.14em] text-blue-100">
@@ -462,7 +462,7 @@ export default function Home() {
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   <div className="rounded-lg border border-white/10 bg-white/10 px-4 py-3 backdrop-blur">
-                    <div className="text-xs uppercase tracking-[0.14em] text-slate-300">Hours Back / year</div>
+                    <div className="text-xs uppercase tracking-[0.14em] text-slate-300">Annual Hours Saved</div>
                     <div className="text-xl font-semibold text-blue-100">{hoursSaved.toLocaleString()} hrs</div>
                   </div>
                   <div className="rounded-lg border border-white/10 bg-white/10 px-4 py-3 backdrop-blur">

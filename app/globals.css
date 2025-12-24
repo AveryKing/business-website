@@ -10,3 +10,75 @@ body {
   color: var(--foreground);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+
+.animate-mesh-gradient {
+  background: radial-gradient(circle at 20% 30%, rgba(34, 211, 238, 0.12), transparent 35%),
+    radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.12), transparent 35%),
+    radial-gradient(circle at 50% 80%, rgba(14, 165, 233, 0.1), transparent 35%);
+  background-size: 160% 160%;
+  animation: meshGradient 18s ease-in-out infinite;
+}
+
+.animate-sweep {
+  animation: sweep 3.5s linear infinite;
+}
+
+@keyframes meshGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes sweep {
+  0% {
+    transform: rotate(0deg) scaleX(1.1);
+  }
+  50% {
+    transform: rotate(180deg) scaleX(1.25);
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1.1);
+  }
+}
+
+input[type="range"].slider-thumb-glow {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="range"].slider-thumb-glow::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 30% 30%, #ecfeff, #22d3ee 55%);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.55);
+  margin-top: -9px;
+}
+
+input[type="range"].slider-thumb-glow::-webkit-slider-runnable-track {
+  height: 6px;
+  background: transparent;
+}
+
+input[type="range"].slider-thumb-glow::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 30% 30%, #ecfeff, #22d3ee 55%);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.55);
+}
+
+input[type="range"].slider-thumb-glow::-moz-range-track {
+  height: 6px;
+  background: transparent;
+}
